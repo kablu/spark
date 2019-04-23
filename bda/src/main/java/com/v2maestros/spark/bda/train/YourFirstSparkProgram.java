@@ -26,7 +26,7 @@ public class YourFirstSparkProgram {
 		//String sparkMaster = "spark://169.254.86.212:7077";
 
 		JavaSparkContext spContext = null;
-	
+	 
 		SparkConf conf = new SparkConf()
 				.setAppName(appName)
 				.setMaster(sparkMaster);
